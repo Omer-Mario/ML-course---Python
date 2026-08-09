@@ -1,1 +1,15 @@
-.
+s = input('enter word to count vowels: ')
+count = 0
+for letter in s:
+    if letter == 'a':
+        count +=1
+    elif letter == 'e':
+        count +=1
+    elif letter == 'i':
+        count +=1
+    elif letter == 'o':
+        count +=1
+    elif letter == 'u':
+        count +=1
+
+print ('Number of vowels is:' + str(count))
