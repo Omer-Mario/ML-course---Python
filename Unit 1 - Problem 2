@@ -1,0 +1,10 @@
+s = input('enter word: ')
+count = 0
+N = len(s)
+
+for i in range(N-2):
+    string = s[i:i+3]
+    if string == 'bob':
+        count += 1
+
+print('Number of times bob occurs is: ' + str(count))
