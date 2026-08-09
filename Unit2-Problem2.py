@@ -2,7 +2,6 @@ balance = 4773
 annualInterestRate = 0.2
 
 monthlyInterestRate = annualInterestRate / 12.0
-original_balance = balance
 payment = 10
 
 while True:
