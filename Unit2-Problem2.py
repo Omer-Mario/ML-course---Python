@@ -5,7 +5,7 @@ monthlyInterestRate = annualInterestRate / 12.0
 payment = 10
 
 while True:
-    remaining_balance = original_balance
+    remaining_balance = balance
     for i in range(12):
         unpaid = remaining_balance - payment
         remaining_balance = unpaid + monthlyInterestRate * unpaid
